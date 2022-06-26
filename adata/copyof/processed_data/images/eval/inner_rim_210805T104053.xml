@@ -1,0 +1,26 @@
+<annotation>
+	<folder>rim_chips</folder>
+	<filename>inner_rim_210805T104053.png</filename>
+	<path>D:\6830_inner-rim\inner-rim_relabel\rim_chips\inner_rim_210805T104053.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>260</width>
+		<height>7990</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>4899</ymin>
+			<xmax>192</xmax>
+			<ymax>5231</ymax>
+		</bndbox>
+	</object>
+</annotation>

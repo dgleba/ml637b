@@ -1,0 +1,26 @@
+<annotation>
+	<folder>inner_rim</folder>
+	<filename>inner_rim_210805T105751.png</filename>
+	<path>E:\projects\vision_systems\6830_dv6_rotor\image_data\DV6_Rotor\MODEL_GENERATION_1\rim_chips\inner_rim\inner_rim_210805T105751.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>260</width>
+		<height>7990</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chip</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>4022</ymin>
+			<xmax>198</xmax>
+			<ymax>4423</ymax>
+		</bndbox>
+	</object>
+</annotation>
