@@ -1,0 +1,20 @@
+# tensorflow-gpu==1.15.0
+
+# tf_slim 
+# scipy
+# bcrypt==3.2.2
+# scikit-image==0.17.2
+# pycurl==7.43.0.5
+# Werkzeug==2.0.3
+
+# cython==0.28.1 
+# lxml==4.8.0
+# matplotlib 
+# numpy==1.19.5
+# opencv-python==4.5.5.64
+ pycocotools
+# protobuf==3.15.2
+# pandas==1.2.2
+# Pillow==9.0.1
+# PyYAML==5.4.1
+# six==1.14.0
