@@ -14,5 +14,5 @@ echo containername=${cname}
 src=${cname}:${pth}
 out=./z-cp
 mkdir -p $out
-docker cp $src $out
+sudo docker cp $src $out
 

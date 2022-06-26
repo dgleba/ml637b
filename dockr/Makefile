@@ -15,7 +15,9 @@ cpa:
 	bash cpa.sh
 
 tr1:
-	sudo docker-compose exec tf1	bash -c "ls -l;bash ./tr1.sh"
+	mkdir -p ../logconsole
+	# docker-compose exec tf1	bash -c "ls -l;bash ./tr1.sh 2>&1|tee -a /out/tf1sh_d__$$(date +"__%Y.%m.%d_%b-%a_%H.%M.%S").txt"|tee -a ../logconsole/tf1sh_a__$$(date +"__%Y.%m.%d_%b-%a_%H.%M.%S").txt
+	docker-compose exec tf1	bash -c "ls -l;bash ./tr1.sh 2>&1|tee -a /out/tf1sh_d__$$(date +"__%Y.%m.%d_%b-%a_%H.%M.%S").txt"
 
 
 
