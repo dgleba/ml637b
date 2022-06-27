@@ -1,0 +1,28 @@
+.
+├── adata
+│   ├── copyof
+│   │   └── processed_data
+│   └── tf1_train
+│       ├── best_checkpoint_copier
+│       ├── deployment
+│       ├── images
+│       ├── nets
+│       ├── object_detection
+│       ├── pretrained_model
+│       ├── processed_data
+│       ├── processed_data01
+│       ├── __pycache__
+│       ├── tensorflow_models
+│       ├── trained_frozen_models_100000_test_against
+│       └── training
+├── dockr-637a
+│   ├── home
+│   │   └── dot
+│   ├── more
+│   └── z-cp
+│       └── out
+├── imgdata
+├── logconsole
+└── tools
+
+25 directories

@@ -1,0 +1,468 @@
+.
+├── adata
+│   ├── copyof
+│   │   └── processed_data
+│   │       └── images
+│   │           ├── eval
+│   │           ├── ir4
+│   │           ├── test
+│   │           └── train
+│   └── tf1_train
+│       ├── best_checkpoint_copier
+│       │   └── best_checkpoint_copier
+│       │       └── __pycache__
+│       ├── deployment
+│       ├── images
+│       │   └── eval
+│       ├── nets
+│       │   ├── mobilenet
+│       │   │   ├── g3doc
+│       │   │   └── __pycache__
+│       │   ├── nasnet
+│       │   │   └── __pycache__
+│       │   └── __pycache__
+│       ├── object_detection
+│       │   ├── anchor_generators
+│       │   │   └── __pycache__
+│       │   ├── box_coders
+│       │   │   └── __pycache__
+│       │   ├── builders
+│       │   │   └── __pycache__
+│       │   ├── core
+│       │   │   └── __pycache__
+│       │   ├── data
+│       │   ├── data_decoders
+│       │   │   └── __pycache__
+│       │   ├── dataset_tools
+│       │   ├── dockerfiles
+│       │   │   └── android
+│       │   ├── g3doc
+│       │   │   └── img
+│       │   ├── inference
+│       │   ├── legacy
+│       │   │   └── __pycache__
+│       │   ├── matchers
+│       │   │   └── __pycache__
+│       │   ├── meta_architectures
+│       │   │   └── __pycache__
+│       │   ├── metrics
+│       │   │   └── __pycache__
+│       │   ├── models
+│       │   │   ├── keras_models
+│       │   │   │   ├── base_models
+│       │   │   │   └── __pycache__
+│       │   │   └── __pycache__
+│       │   ├── predictors
+│       │   │   ├── heads
+│       │   │   │   └── __pycache__
+│       │   │   └── __pycache__
+│       │   ├── protos
+│       │   │   └── __pycache__
+│       │   ├── __pycache__
+│       │   ├── samples
+│       │   │   ├── cloud
+│       │   │   └── configs
+│       │   ├── test_ckpt
+│       │   ├── test_data
+│       │   ├── test_images
+│       │   ├── tpu_exporters
+│       │   │   └── testdata
+│       │   │       ├── faster_rcnn
+│       │   │       └── ssd
+│       │   └── utils
+│       │       └── __pycache__
+│       ├── pretrained_model
+│       │   ├── faster_rcnn_inception_v2_coco_2018_01_28
+│       │   │   └── saved_model
+│       │   │       └── variables
+│       │   └── faster_rcnn_resnet50_coco_2018_01_28
+│       │       └── saved_model
+│       │           └── variables
+│       ├── processed_data
+│       │   └── images
+│       │       ├── eval
+│       │       ├── ir4
+│       │       ├── test
+│       │       └── train
+│       ├── processed_data01
+│       │   └── images
+│       │       ├── eval
+│       │       └── train
+│       ├── __pycache__
+│       ├── tensorflow_models
+│       │   ├── official
+│       │   │   ├── benchmark
+│       │   │   │   ├── datastore
+│       │   │   │   │   └── schema
+│       │   │   │   └── models
+│       │   │   ├── modeling
+│       │   │   │   ├── activations
+│       │   │   │   ├── hyperparams
+│       │   │   │   └── training
+│       │   │   ├── nlp
+│       │   │   │   ├── albert
+│       │   │   │   ├── bert
+│       │   │   │   ├── data
+│       │   │   │   ├── modeling
+│       │   │   │   │   ├── layers
+│       │   │   │   │   ├── losses
+│       │   │   │   │   └── networks
+│       │   │   │   ├── transformer
+│       │   │   │   │   └── utils
+│       │   │   │   └── xlnet
+│       │   │   ├── pip_package
+│       │   │   ├── r1
+│       │   │   │   ├── boosted_trees
+│       │   │   │   ├── mnist
+│       │   │   │   ├── resnet
+│       │   │   │   ├── transformer
+│       │   │   │   ├── utils
+│       │   │   │   │   └── data
+│       │   │   │   └── wide_deep
+│       │   │   ├── recommendation
+│       │   │   ├── staging
+│       │   │   │   ├── shakespeare
+│       │   │   │   └── training
+│       │   │   ├── utils
+│       │   │   │   ├── flags
+│       │   │   │   ├── logs
+│       │   │   │   ├── misc
+│       │   │   │   └── testing
+│       │   │   │       └── scripts
+│       │   │   └── vision
+│       │   │       ├── detection
+│       │   │       │   ├── configs
+│       │   │       │   ├── dataloader
+│       │   │       │   ├── evaluation
+│       │   │       │   ├── executor
+│       │   │       │   ├── modeling
+│       │   │       │   │   └── architecture
+│       │   │       │   ├── ops
+│       │   │       │   └── utils
+│       │   │       │       └── object_detection
+│       │   │       └── image_classification
+│       │   ├── research
+│       │   │   ├── a3c_blogpost
+│       │   │   ├── adversarial_crypto
+│       │   │   ├── adversarial_logit_pairing
+│       │   │   │   ├── datasets
+│       │   │   │   └── tiny_imagenet_converter
+│       │   │   ├── adversarial_text
+│       │   │   │   └── data
+│       │   │   ├── adv_imagenet_models
+│       │   │   ├── astronet
+│       │   │   ├── attention_ocr
+│       │   │   │   └── python
+│       │   │   │       ├── datasets
+│       │   │   │       │   └── testdata
+│       │   │   │       │       └── fsns
+│       │   │   │       └── testdata
+│       │   │   ├── audioset
+│       │   │   │   ├── vggish
+│       │   │   │   └── yamnet
+│       │   │   ├── autoaugment
+│       │   │   ├── autoencoder
+│       │   │   │   └── autoencoder_models
+│       │   │   ├── brain_coder
+│       │   │   │   ├── common
+│       │   │   │   └── single_task
+│       │   │   ├── cognitive_mapping_and_planning
+│       │   │   │   ├── cfgs
+│       │   │   │   ├── data
+│       │   │   │   ├── datasets
+│       │   │   │   ├── output
+│       │   │   │   ├── patches
+│       │   │   │   ├── render
+│       │   │   │   ├── scripts
+│       │   │   │   ├── src
+│       │   │   │   └── tfcode
+│       │   │   ├── cognitive_planning
+│       │   │   │   ├── envs
+│       │   │   │   │   └── configs
+│       │   │   │   └── preprocessing
+│       │   │   ├── compression
+│       │   │   │   ├── entropy_coder
+│       │   │   │   │   ├── all_models
+│       │   │   │   │   ├── configs
+│       │   │   │   │   │   ├── gru_prime3
+│       │   │   │   │   │   └── synthetic
+│       │   │   │   │   ├── core
+│       │   │   │   │   ├── dataset
+│       │   │   │   │   ├── lib
+│       │   │   │   │   ├── model
+│       │   │   │   │   └── progressive
+│       │   │   │   └── image_encoder
+│       │   │   ├── cvt_text
+│       │   │   │   ├── base
+│       │   │   │   ├── corpus_processing
+│       │   │   │   ├── model
+│       │   │   │   ├── task_specific
+│       │   │   │   │   └── word_level
+│       │   │   │   └── training
+│       │   │   ├── deep_contextual_bandits
+│       │   │   │   └── bandits
+│       │   │   │       ├── algorithms
+│       │   │   │       │   └── __pycache__
+│       │   │   │       ├── core
+│       │   │   │       │   └── __pycache__
+│       │   │   │       └── data
+│       │   │   │           └── __pycache__
+│       │   │   ├── deeplab
+│       │   │   │   ├── core
+│       │   │   │   ├── datasets
+│       │   │   │   ├── deprecated
+│       │   │   │   ├── evaluation
+│       │   │   │   │   ├── g3doc
+│       │   │   │   │   │   └── img
+│       │   │   │   │   └── testdata
+│       │   │   │   │       ├── coco_gt
+│       │   │   │   │       └── coco_pred
+│       │   │   │   ├── g3doc
+│       │   │   │   │   └── img
+│       │   │   │   ├── testing
+│       │   │   │   │   └── pascal_voc_seg
+│       │   │   │   └── utils
+│       │   │   ├── deep_speech
+│       │   │   │   └── data
+│       │   │   ├── delf
+│       │   │   │   └── delf
+│       │   │   │       ├── protos
+│       │   │   │       └── python
+│       │   │   │           ├── detect_to_retrieve
+│       │   │   │           ├── examples
+│       │   │   │           └── google_landmarks_dataset
+│       │   │   ├── domain_adaptation
+│       │   │   │   ├── datasets
+│       │   │   │   ├── domain_separation
+│       │   │   │   └── pixel_domain_adaptation
+│       │   │   │       └── baselines
+│       │   │   ├── efficient-hrl
+│       │   │   │   ├── agents
+│       │   │   │   ├── configs
+│       │   │   │   ├── context
+│       │   │   │   │   └── configs
+│       │   │   │   ├── environments
+│       │   │   │   │   └── assets
+│       │   │   │   ├── scripts
+│       │   │   │   └── utils
+│       │   │   ├── feelvos
+│       │   │   │   ├── correlation_cost
+│       │   │   │   ├── datasets
+│       │   │   │   └── utils
+│       │   │   ├── fivo
+│       │   │   │   ├── bin
+│       │   │   │   ├── experimental
+│       │   │   │   └── fivo
+│       │   │   │       ├── data
+│       │   │   │       ├── models
+│       │   │   │       └── test_data
+│       │   │   ├── global_objectives
+│       │   │   ├── im2txt
+│       │   │   │   ├── conda-env
+│       │   │   │   ├── g3doc
+│       │   │   │   └── im2txt
+│       │   │   │       ├── data
+│       │   │   │       ├── inference_utils
+│       │   │   │       └── ops
+│       │   │   ├── inception
+│       │   │   │   ├── g3doc
+│       │   │   │   └── inception
+│       │   │   │       ├── data
+│       │   │   │       └── slim
+│       │   │   ├── keypointnet
+│       │   │   │   └── tools
+│       │   │   ├── learned_optimizer
+│       │   │   │   ├── optimizer
+│       │   │   │   └── problems
+│       │   │   ├── learning_to_remember_rare_events
+│       │   │   ├── learning_unsupervised_learning
+│       │   │   │   ├── architectures
+│       │   │   │   ├── datasets
+│       │   │   │   └── meta_objective
+│       │   │   ├── lexnet_nc
+│       │   │   ├── lfads
+│       │   │   │   └── synth_data
+│       │   │   │       └── trained_itb
+│       │   │   ├── lm_1b
+│       │   │   ├── lm_commonsense
+│       │   │   ├── lstm_object_detection
+│       │   │   │   ├── builders
+│       │   │   │   ├── configs
+│       │   │   │   ├── g3doc
+│       │   │   │   ├── inputs
+│       │   │   │   ├── lstm
+│       │   │   │   ├── meta_architectures
+│       │   │   │   ├── metrics
+│       │   │   │   ├── models
+│       │   │   │   ├── protos
+│       │   │   │   ├── tflite
+│       │   │   │   │   ├── protos
+│       │   │   │   │   └── utils
+│       │   │   │   └── utils
+│       │   │   ├── marco
+│       │   │   ├── maskgan
+│       │   │   │   ├── data
+│       │   │   │   ├── losses
+│       │   │   │   ├── models
+│       │   │   │   ├── model_utils
+│       │   │   │   ├── nas_utils
+│       │   │   │   └── regularization
+│       │   │   ├── namignizer
+│       │   │   ├── neural_gpu
+│       │   │   ├── neural_programmer
+│       │   │   ├── next_frame_prediction
+│       │   │   │   ├── cross_conv
+│       │   │   │   └── g3doc
+│       │   │   ├── nst_blogpost
+│       │   │   ├── object_detection
+│       │   │   │   ├── anchor_generators
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── box_coders
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── builders
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── core
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── data
+│       │   │   │   ├── data_decoders
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── dataset_tools
+│       │   │   │   ├── dockerfiles
+│       │   │   │   │   └── android
+│       │   │   │   ├── g3doc
+│       │   │   │   │   └── img
+│       │   │   │   ├── inference
+│       │   │   │   ├── legacy
+│       │   │   │   ├── matchers
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── meta_architectures
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── metrics
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── models
+│       │   │   │   │   ├── keras_models
+│       │   │   │   │   │   ├── base_models
+│       │   │   │   │   │   └── __pycache__
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── predictors
+│       │   │   │   │   ├── heads
+│       │   │   │   │   │   └── __pycache__
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── protos
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── __pycache__
+│       │   │   │   ├── samples
+│       │   │   │   │   ├── cloud
+│       │   │   │   │   └── configs
+│       │   │   │   ├── test_ckpt
+│       │   │   │   ├── test_data
+│       │   │   │   ├── test_images
+│       │   │   │   ├── tpu_exporters
+│       │   │   │   │   └── testdata
+│       │   │   │   │       ├── faster_rcnn
+│       │   │   │   │       └── ssd
+│       │   │   │   └── utils
+│       │   │   │       └── __pycache__
+│       │   │   ├── pcl_rl
+│       │   │   ├── ptn
+│       │   │   │   └── nets
+│       │   │   ├── qa_kg
+│       │   │   │   ├── exp_1_hop
+│       │   │   │   ├── model_n2nmn
+│       │   │   │   └── util
+│       │   │   ├── real_nvp
+│       │   │   ├── rebar
+│       │   │   ├── sentiment_analysis
+│       │   │   │   └── data
+│       │   │   ├── seq2species
+│       │   │   │   └── protos
+│       │   │   ├── skip_thoughts
+│       │   │   │   └── skip_thoughts
+│       │   │   │       ├── data
+│       │   │   │       └── ops
+│       │   │   ├── slim
+│       │   │   │   ├── datasets
+│       │   │   │   ├── deployment
+│       │   │   │   ├── nets
+│       │   │   │   │   ├── mobilenet
+│       │   │   │   │   │   ├── g3doc
+│       │   │   │   │   │   └── __pycache__
+│       │   │   │   │   ├── nasnet
+│       │   │   │   │   │   └── __pycache__
+│       │   │   │   │   └── __pycache__
+│       │   │   │   ├── preprocessing
+│       │   │   │   └── scripts
+│       │   │   ├── steve
+│       │   │   │   └── config
+│       │   │   │       ├── algos
+│       │   │   │       ├── core
+│       │   │   │       ├── envs
+│       │   │   │       ├── experimental_setups
+│       │   │   │       └── experiments
+│       │   │   │           ├── ablations
+│       │   │   │           │   ├── baselines
+│       │   │   │           │   └── horizons
+│       │   │   │           ├── goodruns
+│       │   │   │           │   ├── flagrun
+│       │   │   │           │   ├── halfcheetah
+│       │   │   │           │   ├── hardcore
+│       │   │   │           │   ├── hopper
+│       │   │   │           │   ├── humanoid
+│       │   │   │           │   ├── rshum
+│       │   │   │           │   ├── swimmer
+│       │   │   │           │   └── walker2d
+│       │   │   │           └── speedruns
+│       │   │   │               ├── flagrun
+│       │   │   │               └── humanoid
+│       │   │   ├── street
+│       │   │   │   ├── cc
+│       │   │   │   ├── g3doc
+│       │   │   │   ├── python
+│       │   │   │   └── testdata
+│       │   │   ├── struct2depth
+│       │   │   ├── swivel
+│       │   │   ├── tcn
+│       │   │   │   ├── configs
+│       │   │   │   ├── dataset
+│       │   │   │   ├── estimators
+│       │   │   │   ├── g3doc
+│       │   │   │   └── utils
+│       │   │   ├── textsum
+│       │   │   │   └── data
+│       │   │   ├── transformer
+│       │   │   │   └── data
+│       │   │   ├── vid2depth
+│       │   │   │   ├── dataset
+│       │   │   │   │   └── kitti
+│       │   │   │   ├── ops
+│       │   │   │   │   └── testdata
+│       │   │   │   └── third_party
+│       │   │   └── video_prediction
+│       │   └── tutorials
+│       │       ├── embedding
+│       │       ├── image
+│       │       │   ├── alexnet
+│       │       │   ├── cifar10
+│       │       │   ├── cifar10_estimator
+│       │       │   ├── imagenet
+│       │       │   └── mnist
+│       │       └── rnn
+│       │           ├── ptb
+│       │           └── quickdraw
+│       ├── trained_frozen_models_100000_test_against
+│       │   └── saved_model
+│       │       └── variables
+│       └── training
+├── dockr-637a
+│   ├── home
+│   │   └── dot
+│   │       └── jupyter
+│   │           └── nbconfig
+│   ├── more
+│   └── z-cp
+│       └── out
+├── imgdata
+├── logconsole
+└── tools
+
+465 directories

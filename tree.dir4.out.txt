@@ -1,0 +1,67 @@
+.
+├── adata
+│   ├── copyof
+│   │   └── processed_data
+│   │       └── images
+│   └── tf1_train
+│       ├── best_checkpoint_copier
+│       │   └── best_checkpoint_copier
+│       ├── deployment
+│       ├── images
+│       │   └── eval
+│       ├── nets
+│       │   ├── mobilenet
+│       │   ├── nasnet
+│       │   └── __pycache__
+│       ├── object_detection
+│       │   ├── anchor_generators
+│       │   ├── box_coders
+│       │   ├── builders
+│       │   ├── core
+│       │   ├── data
+│       │   ├── data_decoders
+│       │   ├── dataset_tools
+│       │   ├── dockerfiles
+│       │   ├── g3doc
+│       │   ├── inference
+│       │   ├── legacy
+│       │   ├── matchers
+│       │   ├── meta_architectures
+│       │   ├── metrics
+│       │   ├── models
+│       │   ├── predictors
+│       │   ├── protos
+│       │   ├── __pycache__
+│       │   ├── samples
+│       │   ├── test_ckpt
+│       │   ├── test_data
+│       │   ├── test_images
+│       │   ├── tpu_exporters
+│       │   └── utils
+│       ├── pretrained_model
+│       │   ├── faster_rcnn_inception_v2_coco_2018_01_28
+│       │   └── faster_rcnn_resnet50_coco_2018_01_28
+│       ├── processed_data
+│       │   └── images
+│       ├── processed_data01
+│       │   └── images
+│       ├── __pycache__
+│       ├── tensorflow_models
+│       │   ├── official
+│       │   ├── research
+│       │   └── tutorials
+│       ├── trained_frozen_models_100000_test_against
+│       │   └── saved_model
+│       └── training
+├── dockr-637a
+│   ├── home
+│   │   └── dot
+│   │       └── jupyter
+│   ├── more
+│   └── z-cp
+│       └── out
+├── imgdata
+├── logconsole
+└── tools
+
+64 directories
