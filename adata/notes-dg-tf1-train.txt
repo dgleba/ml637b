@@ -11,6 +11,10 @@ edit faster_rcnn_inception_v2_pets.config
 
 delete training/ folder contents.
 
+
+    paperspace@psno980ac:~/ml637b/adata/tf1_train$ sudo rm -rf training
+
+
 --
 
 

@@ -1,0 +1,299 @@
+WARNING:tensorflow:From model_main.py:24: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From model_main.py:24: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From model_main.py:134: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/utils/config_util.py:102: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0627 23:07:16.464215 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/utils/config_util.py:102: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:628: The name tf.logging.warning is deprecated. Please use tf.compat.v1.logging.warning instead.
+
+W0627 23:07:16.470861 140718515382080 module_wrapper.py:139] From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:628: The name tf.logging.warning is deprecated. Please use tf.compat.v1.logging.warning instead.
+
+WARNING:tensorflow:Forced number of epochs for all eval validations to be 1.
+W0627 23:07:16.471127 140718515382080 model_lib.py:629] Forced number of epochs for all eval validations to be 1.
+WARNING:tensorflow:From /adata/tf1_train/object_detection/utils/config_util.py:488: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0627 23:07:16.471570 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/utils/config_util.py:488: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Maybe overwriting train_steps: None
+I0627 23:07:16.471693 140718515382080 config_util.py:488] Maybe overwriting train_steps: None
+INFO:tensorflow:Maybe overwriting use_bfloat16: False
+I0627 23:07:16.471815 140718515382080 config_util.py:488] Maybe overwriting use_bfloat16: False
+INFO:tensorflow:Maybe overwriting sample_1_of_n_eval_examples: 1
+I0627 23:07:16.472058 140718515382080 config_util.py:488] Maybe overwriting sample_1_of_n_eval_examples: 1
+INFO:tensorflow:Maybe overwriting eval_num_epochs: 1
+I0627 23:07:16.472364 140718515382080 config_util.py:488] Maybe overwriting eval_num_epochs: 1
+INFO:tensorflow:Maybe overwriting load_pretrained: True
+I0627 23:07:16.472640 140718515382080 config_util.py:488] Maybe overwriting load_pretrained: True
+INFO:tensorflow:Ignoring config override key: load_pretrained
+I0627 23:07:16.472745 140718515382080 config_util.py:498] Ignoring config override key: load_pretrained
+WARNING:tensorflow:Expected number of evaluation epochs is 1, but instead encountered `eval_on_train_input_config.num_epochs` = 0. Overwriting `num_epochs` to 1.
+W0627 23:07:16.473848 140718515382080 model_lib.py:645] Expected number of evaluation epochs is 1, but instead encountered `eval_on_train_input_config.num_epochs` = 0. Overwriting `num_epochs` to 1.
+INFO:tensorflow:create_estimator_and_inputs: use_tpu False, export_to_tpu False
+I0627 23:07:16.473980 140718515382080 model_lib.py:680] create_estimator_and_inputs: use_tpu False, export_to_tpu False
+INFO:tensorflow:Using config: {'_model_dir': 'training/', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7ffb285ea4e0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0627 23:07:16.474749 140718515382080 estimator.py:212] Using config: {'_model_dir': 'training/', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7ffb285ea4e0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+WARNING:tensorflow:Estimator's model_fn (<function create_model_fn.<locals>.model_fn at 0x7ffb285e8a60>) includes params argument, but params are not passed to Estimator.
+W0627 23:07:16.475237 140718515382080 model_fn.py:630] Estimator's model_fn (<function create_model_fn.<locals>.model_fn at 0x7ffb285e8a60>) includes params argument, but params are not passed to Estimator.
+INFO:tensorflow:Not using Distribute Coordinator.
+I0627 23:07:16.476397 140718515382080 estimator_training.py:186] Not using Distribute Coordinator.
+INFO:tensorflow:Running training and evaluation locally (non-distributed).
+I0627 23:07:16.476673 140718515382080 training.py:612] Running training and evaluation locally (non-distributed).
+INFO:tensorflow:Start train and evaluate loop. The evaluate will happen after every checkpoint. Checkpoint frequency is determined based on RunConfig arguments: save_checkpoints_steps None or save_checkpoints_secs 600.
+I0627 23:07:16.477328 140718515382080 training.py:700] Start train and evaluate loop. The evaluate will happen after every checkpoint. Checkpoint frequency is determined based on RunConfig arguments: save_checkpoints_steps None or save_checkpoints_secs 600.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0627 23:07:16.490265 140718515382080 deprecation.py:323] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From /adata/tf1_train/object_detection/data_decoders/tf_example_decoder.py:182: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+W0627 23:07:16.512182 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/data_decoders/tf_example_decoder.py:182: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/data_decoders/tf_example_decoder.py:197: The name tf.VarLenFeature is deprecated. Please use tf.io.VarLenFeature instead.
+
+W0627 23:07:16.512552 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/data_decoders/tf_example_decoder.py:197: The name tf.VarLenFeature is deprecated. Please use tf.io.VarLenFeature instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/builders/dataset_builder.py:64: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+W0627 23:07:16.536169 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/builders/dataset_builder.py:64: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+WARNING:tensorflow:num_readers has been reduced to 1 to match input file shards.
+W0627 23:07:16.537962 140718515382080 dataset_builder.py:72] num_readers has been reduced to 1 to match input file shards.
+WARNING:tensorflow:From /adata/tf1_train/object_detection/builders/dataset_builder.py:86: parallel_interleave (from tensorflow.contrib.data.python.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.parallel_interleave(...)`.
+W0627 23:07:16.547583 140718515382080 deprecation.py:323] From /adata/tf1_train/object_detection/builders/dataset_builder.py:86: parallel_interleave (from tensorflow.contrib.data.python.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.parallel_interleave(...)`.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/contrib/data/python/ops/interleave_ops.py:77: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0627 23:07:16.547969 140718515382080 deprecation.py:323] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/contrib/data/python/ops/interleave_ops.py:77: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From /adata/tf1_train/object_detection/builders/dataset_builder.py:155: DatasetV1.map_with_legacy_function (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map()
+W0627 23:07:16.600012 140718515382080 deprecation.py:323] From /adata/tf1_train/object_detection/builders/dataset_builder.py:155: DatasetV1.map_with_legacy_function (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map()
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W0627 23:07:18.887645 140718515382080 module_wrapper.py:139] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.is_nan is deprecated. Please use tf.math.is_nan instead.
+
+W0627 23:07:32.433863 140718515382080 module_wrapper.py:139] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.is_nan is deprecated. Please use tf.math.is_nan instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/utils/ops.py:493: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0627 23:07:32.585371 140718515382080 deprecation.py:323] From /adata/tf1_train/object_detection/utils/ops.py:493: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0627 23:07:36.733597 140718515382080 module_wrapper.py:139] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.image.resize_images is deprecated. Please use tf.image.resize instead.
+
+W0627 23:07:36.736053 140718515382080 module_wrapper.py:139] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.image.resize_images is deprecated. Please use tf.image.resize instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/inputs.py:166: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0627 23:07:41.202615 140718515382080 deprecation.py:323] From /adata/tf1_train/object_detection/inputs.py:166: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.string_to_hash_bucket_fast is deprecated. Please use tf.strings.to_hash_bucket_fast instead.
+
+W0627 23:07:44.902406 140718515382080 module_wrapper.py:139] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.string_to_hash_bucket_fast is deprecated. Please use tf.strings.to_hash_bucket_fast instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/builders/dataset_builder.py:158: batch_and_drop_remainder (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.batch(..., drop_remainder=True)`.
+W0627 23:07:45.973359 140718515382080 deprecation.py:323] From /adata/tf1_train/object_detection/builders/dataset_builder.py:158: batch_and_drop_remainder (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.batch(..., drop_remainder=True)`.
+INFO:tensorflow:Calling model_fn.
+I0627 23:07:46.001605 140718515382080 estimator.py:1148] Calling model_fn.
+WARNING:tensorflow:From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:168: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0627 23:07:46.035055 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:168: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/contrib/layers/python/layers/layers.py:2784: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W0627 23:07:46.052001 140718515382080 deprecation.py:323] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/contrib/layers/python/layers/layers.py:2784: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /adata/tf1_train/object_detection/core/anchor_generator.py:171: The name tf.assert_equal is deprecated. Please use tf.compat.v1.assert_equal instead.
+
+W0627 23:07:48.701229 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/core/anchor_generator.py:171: The name tf.assert_equal is deprecated. Please use tf.compat.v1.assert_equal instead.
+
+INFO:tensorflow:Scale of 0 disables regularizer.
+I0627 23:07:48.712738 140718515382080 regularizers.py:98] Scale of 0 disables regularizer.
+WARNING:tensorflow:From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:558: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+W0627 23:07:48.713541 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:558: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+INFO:tensorflow:Scale of 0 disables regularizer.
+I0627 23:07:48.740375 140718515382080 regularizers.py:98] Scale of 0 disables regularizer.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+I0627 23:07:48.741461 140718515382080 convolutional_box_predictor.py:151] depth of additional conv before box predictor: 0
+WARNING:tensorflow:From /adata/tf1_train/object_detection/box_coders/faster_rcnn_box_coder.py:82: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0627 23:07:49.752823 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/box_coders/faster_rcnn_box_coder.py:82: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/core/minibatch_sampler.py:85: The name tf.random_shuffle is deprecated. Please use tf.random.shuffle instead.
+
+W0627 23:07:49.823232 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/core/minibatch_sampler.py:85: The name tf.random_shuffle is deprecated. Please use tf.random.shuffle instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/utils/spatial_transform_ops.py:419: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+W0627 23:07:50.197090 140718515382080 deprecation.py:506] From /adata/tf1_train/object_detection/utils/spatial_transform_ops.py:419: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:191: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+W0627 23:07:50.223371 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:191: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+W0627 23:07:51.148616 140718515382080 deprecation.py:323] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+INFO:tensorflow:Scale of 0 disables regularizer.
+I0627 23:07:51.153159 140718515382080 regularizers.py:98] Scale of 0 disables regularizer.
+INFO:tensorflow:Scale of 0 disables regularizer.
+I0627 23:07:51.182424 140718515382080 regularizers.py:98] Scale of 0 disables regularizer.
+WARNING:tensorflow:From /adata/tf1_train/object_detection/utils/variables_helper.py:179: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+W0627 23:07:51.230802 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/utils/variables_helper.py:179: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:2768: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+W0627 23:07:51.231435 140718515382080 deprecation.py:323] From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:2768: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /adata/tf1_train/object_detection/utils/variables_helper.py:139: The name tf.train.NewCheckpointReader is deprecated. Please use tf.compat.v1.train.NewCheckpointReader instead.
+
+W0627 23:07:51.235203 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/utils/variables_helper.py:139: The name tf.train.NewCheckpointReader is deprecated. Please use tf.compat.v1.train.NewCheckpointReader instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/utils/variables_helper.py:142: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+W0627 23:07:51.241067 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/utils/variables_helper.py:142: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:353: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+W0627 23:07:51.245584 140718515382080 module_wrapper.py:139] From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:353: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/core/losses.py:177: The name tf.losses.huber_loss is deprecated. Please use tf.compat.v1.losses.huber_loss instead.
+
+W0627 23:07:53.223280 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/core/losses.py:177: The name tf.losses.huber_loss is deprecated. Please use tf.compat.v1.losses.huber_loss instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/core/losses.py:183: The name tf.losses.Reduction is deprecated. Please use tf.compat.v1.losses.Reduction instead.
+
+W0627 23:07:53.225172 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/core/losses.py:183: The name tf.losses.Reduction is deprecated. Please use tf.compat.v1.losses.Reduction instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/core/losses.py:350: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+W0627 23:07:53.299090 140718515382080 deprecation.py:323] From /adata/tf1_train/object_detection/core/losses.py:350: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:2710: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+W0627 23:07:53.680366 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/meta_architectures/faster_rcnn_meta_arch.py:2710: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:380: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+W0627 23:07:53.682378 140718515382080 module_wrapper.py:139] From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:380: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+WARNING:tensorflow:From /adata/tf1_train/object_detection/builders/optimizer_builder.py:58: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+W0627 23:07:53.694471 140718515382080 module_wrapper.py:139] From /adata/tf1_train/object_detection/builders/optimizer_builder.py:58: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+WARNING:tensorflow:From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:398: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+W0627 23:07:53.694987 140718515382080 module_wrapper.py:139] From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:398: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:408: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+W0627 23:07:53.695389 140718515382080 module_wrapper.py:139] From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:408: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/framework/indexed_slices.py:424: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/framework/indexed_slices.py:424: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+WARNING:tensorflow:From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:515: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W0627 23:07:59.297817 140718515382080 module_wrapper.py:139] From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:515: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:519: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+W0627 23:07:59.897631 140718515382080 module_wrapper.py:139] From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:519: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+WARNING:tensorflow:From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:520: The name tf.train.Scaffold is deprecated. Please use tf.compat.v1.train.Scaffold instead.
+
+W0627 23:07:59.898110 140718515382080 module_wrapper.py:139] From /adata/tf1_train/tensorflow_models/research/object_detection/model_lib.py:520: The name tf.train.Scaffold is deprecated. Please use tf.compat.v1.train.Scaffold instead.
+
+INFO:tensorflow:Done calling model_fn.
+I0627 23:07:59.898582 140718515382080 estimator.py:1150] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0627 23:07:59.900343 140718515382080 basic_session_run_hooks.py:541] Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+I0627 23:08:03.538782 140718515382080 monitored_session.py:240] Graph was finalized.
+2022-06-27 23:08:03.539743: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-06-27 23:08:03.561909: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600000000 Hz
+2022-06-27 23:08:03.563680: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5e8cde0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-06-27 23:08:03.563756: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-06-27 23:08:03.574515: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-06-27 23:08:03.575410: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (-1)
+2022-06-27 23:08:03.575488: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] no NVIDIA GPU device is present: /dev/nvidia0 does not exist
+INFO:tensorflow:Running local_init_op.
+I0627 23:08:08.384136 140718515382080 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0627 23:08:08.906997 140718515382080 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 0 into training/model.ckpt.
+I0627 23:08:19.898787 140718515382080 basic_session_run_hooks.py:606] Saving checkpoints for 0 into training/model.ckpt.
+INFO:tensorflow:loss = 1.6970537, step = 1
+I0627 23:08:40.488235 140718515382080 basic_session_run_hooks.py:262] loss = 1.6970537, step = 1
